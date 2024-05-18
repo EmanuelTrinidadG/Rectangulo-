@@ -1,0 +1,10 @@
+def calcular_area(base, altura):
+    """Calcula el área de un rectángulo dado su base y altura."""
+    return base * altura
+
+base = 5
+altura = 10
+
+area = calcular_area(base, altura)
+
+print("El área del rectángulo es:", area)
